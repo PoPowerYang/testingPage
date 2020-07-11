@@ -8,17 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   accounts = [
     {
-      name: 'Master Account',
-      status: 'active'
+      name: '你友善的朋友',
+      status: '杨咏华'
     },
-    {
-      name: 'Testaccount',
-      status: 'inactive'
-    },
-    {
-      name: 'Hidden Account',
-      status: 'unknown'
-    }
   ];
 
   onAccountAdded(newAccount: {name: string, status: string}) {
